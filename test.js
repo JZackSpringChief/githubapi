@@ -29,3 +29,15 @@ let fileSize = 5;
 
 const result = cloudStorage > fileSize || systemStorage > fileSize;
 console.log("Saved? : " + result);
+
+let mainSubject = 43;
+let extraCurricular = 12;
+const result1 = mainSubject > 35 && extraCurricular > 40;
+
+console.log(result1);
+
+let testRun = false;
+let outputShows = true;
+
+const result2 = testRun || outputShows;
+console.log(result2);
