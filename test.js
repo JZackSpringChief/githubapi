@@ -41,3 +41,20 @@ let outputShows = true;
 
 const result2 = testRun || outputShows;
 console.log(result2);
+
+const capacity = 1000;
+const emails = 157;
+
+const full = emails >= capacity;
+console.log(full);
+
+const age = 19;
+const minAge = 16;
+const canDrive = age >= minAge;
+console.log("Old enough to drive:");
+console.log(canDrive);
+
+const temp = 30;
+const isFreezing = temp < 32;
+
+console.log(isFreezing);
