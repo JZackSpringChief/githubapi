@@ -1,4 +1,5 @@
 import express from "express";
+import githubProfile from "github-profile";
 
 const app = express();
 const port = 5524;
@@ -12,4 +13,8 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
   console.log(`server is up on port ${port}`);
+});
+
+githubProfile("jzacksc@gmail.com").then((profile) => {
+  console.log(profile);
 });
