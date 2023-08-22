@@ -67,3 +67,11 @@ let isCamC = true;
 const resu = internetS > 30 && isCamC;
 
 console.log("Online class : " + resu);
+
+let purchasedItem = "perfume";
+let stock = 4;
+let bill = 20;
+let customerPayment = 25;
+const resul =
+  purchasedItem === "perfume" && stock > 0 && bill <= customerPayment;
+console.log("Transaction approved? : " + resul);
