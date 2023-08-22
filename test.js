@@ -75,3 +75,18 @@ let customerPayment = 25;
 const resul =
   purchasedItem === "perfume" && stock > 0 && bill <= customerPayment;
 console.log("Transaction approved? : " + resul);
+
+// another negation test
+
+let isSwipeDown = false;
+let isOnlinePayDown = true;
+const re = !isSwipeDown && !isOnlinePayDown;
+console.log("Is any mode of payment accepted? : " + re);
+
+//rgb check is less than or equal too 255
+
+let r = 200;
+let g = 300;
+let b = 10;
+const rgbCheck = r <= 255 && g <= 255 && b <= 255;
+console.log("Valid RGB? : " + rgbCheck);
