@@ -126,3 +126,37 @@ if (isInstalled) {
 } else {
   console.log("Installing SnapCat...");
 }
+
+let isWeekend = false;
+
+if (isWeekend) {
+  console.log("yay");
+} else {
+  console.log("awww man");
+}
+
+let password = "00000001";
+let correctPassword = "00000000";
+
+if (password === correctPassword) {
+  console.log("correct");
+} else {
+  console.log("wrong password");
+}
+
+let messages = 5;
+if (messages === 0) {
+  console.log("Inbox empty");
+} else {
+  console.log("You have a new message");
+}
+
+let correctAnswer = "Python";
+let userAnswer = "Javascript";
+if (userAnswer === correctAnswer) {
+  console.log("That's correct!");
+} else if (userAnswer === "Java") {
+  console.log("Java is not correct");
+} else {
+  console.log("The correct answer is Python!");
+}
