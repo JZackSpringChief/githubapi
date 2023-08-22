@@ -160,3 +160,22 @@ if (userAnswer === correctAnswer) {
 } else {
   console.log("The correct answer is Python!");
 }
+
+//Finish the code with an  e⁠l⁠s⁠e⁠  statement to display a string message in the console when  s⁠e⁠l⁠e⁠c⁠t⁠e⁠d⁠  isn't equal to  "⁠M⁠a⁠r⁠i⁠o⁠"⁠  or  "⁠P⁠r⁠i⁠n⁠c⁠e⁠s⁠s⁠ P⁠e⁠a⁠c⁠h⁠"⁠ .
+
+let selected = "Spiderman";
+if (selected === "Mario") {
+  console.log("Woohoo!");
+} else if (selected === "Princess Peach") {
+  console.log("Let's go!");
+} else {
+  console.log("not a valid character");
+}
+
+const go1 = false;
+
+if (go1 === true) {
+  console.log("lets a go");
+} else if (go1 === false) {
+  console.log("Stop");
+}
