@@ -98,3 +98,31 @@ const isRainy = true;
 if (isRainy) {
   console.log("I need my umbrella");
 }
+
+if (true) {
+  console.log("this is really the main man");
+}
+
+const levelCompleted = true;
+
+if (levelCompleted) {
+  console.log("Continue to level 3");
+}
+
+let subject = "Math";
+let grade = "A";
+if (grade !== "A") {
+  console.log("Give " + subject + " a chance");
+}
+if (subject === "Math") {
+  console.log("Today's a great day for solving equations!");
+}
+
+//promise.all youtube github.
+
+let isInstalled = true;
+if (isInstalled) {
+  console.log("You already have SnapCat");
+} else {
+  console.log("Installing SnapCat...");
+}
