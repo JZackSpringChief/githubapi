@@ -58,3 +58,12 @@ const temp = 30;
 const isFreezing = temp < 32;
 
 console.log(isFreezing);
+
+const ag = 33;
+console.log("Age: " + ag);
+
+let internetS = 32;
+let isCamC = true;
+const resu = internetS > 30 && isCamC;
+
+console.log("Online class : " + resu);
