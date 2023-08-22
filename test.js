@@ -90,3 +90,11 @@ let g = 300;
 let b = 10;
 const rgbCheck = r <= 255 && g <= 255 && b <= 255;
 console.log("Valid RGB? : " + rgbCheck);
+
+// conditionals
+
+const isRainy = true;
+
+if (isRainy) {
+  console.log("I need my umbrella");
+}
