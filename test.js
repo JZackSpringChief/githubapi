@@ -179,3 +179,11 @@ if (go1 === true) {
 } else if (go1 === false) {
   console.log("Stop");
 }
+
+// while loop
+
+let autopilot = true;
+while (autopilot === true) {
+  console.log("Auto pilot active");
+  autopilot = false;
+}
