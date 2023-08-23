@@ -187,3 +187,83 @@ while (autopilot === true) {
   console.log("Auto pilot active");
   autopilot = false;
 }
+
+// let counter = 0;
+// while (counter < 3) {
+//   console.log(counter);
+//   counter++;
+// }
+
+//for loop
+
+// for (let i = 10; i > 5; i--) {
+//   console.log(i);
+// }
+
+// let number = 0;
+// while (number <= 5) {
+//   console.log(number);
+//   number++;
+// }
+
+// let counter = -3;
+// while (counter < 0) {
+//   console.log(counter);
+//   counter += 1;
+// }
+
+// let counter = 2;
+// while (counter < 8) {
+//   counter++;
+//   console.log(counter);
+// }
+
+// let counter = 50;
+// while (counter < 100) {
+//   counter += 10;
+//   console.log(counter);
+// }
+
+let count = 0;
+while (count < 10) {
+  count += 1;
+  console.log(count);
+}
+
+// //Exercise: Sum of Even Numbers
+// Statement: Write an algorithm that calculates the sum of all even numbers between 1 and a given positive integer, inclusive.
+// Example:
+// If the user enters 10, the algorithm should calculate the sum of even numbers between 1 and 10, which are 2 + 4 + 6 + 8 + 10, resulting in an answer of 30.
+// Constraints:
+// The algorithm should work for any given positive integer.
+// Make sure to handle cases where the given number is odd or negative.
+let sum = 0;
+
+for (let i = 0; i < 50; i++) {
+  if (i % 2 == 0) {
+    sum = sum + i;
+  }
+}
+console.log(sum);
+
+let lyric = "I want to hold your h";
+for (let i = 0; i < 6; i++) {
+  lyric += "a";
+}
+lyric += "nd";
+console.log(lyric);
+
+let guest = 3;
+for (let i = 0; i < guest; i++) {
+  console.log(i);
+}
+
+for (let i = 1; i < 5; i++) {
+  console.log("Display Element");
+}
+
+let count3 = 15;
+while (count3 > 0) {
+  console.log(count3);
+  count3--;
+}
