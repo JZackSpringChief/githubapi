@@ -267,3 +267,9 @@ while (count3 > 0) {
   console.log(count3);
   count3--;
 }
+
+let count5 = 19;
+while (count5 > 3) {
+  console.log(count5);
+  count5--;
+}
